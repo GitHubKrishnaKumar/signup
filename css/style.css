@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+.container{
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-top: 120px;
+}
+.form-size {
+    width: 100vh;
+}
+form {
+    width: 100vh;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+form input {
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: 'Inter';
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+}
+
+form label {
+    display: inline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.len {
+    width: 100vh;
+}
+
+#stu{
+    margin-right: 25px;
+}
+.chk{
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 5px 30px;
+    border-radius: 0px;
+    margin-top: 30px;
+}
+
+input[type="date"] {
+    color: transparent !important;
+    font-family: 'Inter';
+    border: none;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+}

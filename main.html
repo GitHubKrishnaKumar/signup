@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="AccioJob weekend contest 1 for module 1 frontend">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>SignUp Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Signup</h1>
+        </header>
+        
+        <main>
+            <div class="form-size">
+                <form action="mailto:kksoni1432@gmail.com" id="form1">
+                    <input type="text" name="name" placeholder="Full Name" class="len" required>
+                    <br>
+                    <hr>
+
+                    <input type="email" name="email" placeholder="Email" class="len" required>
+                    <br>
+                    <hr>
+                   
+                    <input type="password" name="password" placeholder="Password" class="len" required>
+                    <br>
+                    <hr>
+                    
+                    <input type="password" name="confirm-password" placeholder="Confirm Password" class="len" required>
+                    <br>
+                    <hr>
+                   
+                    <input type="text" name="dob" placeholder="MM/DD/YYYY" class="len" required>
+                    <br>
+                    <hr>
+
+                    <input type="radio" class="radio" name="type" id="Student" value="Student" required>
+                    <label for="student" id="stu">Student</label>
+                    <input type="radio" class="radio" name="type" id="Employee" value="Employee" required>
+                    <label for="employee">Employee</label>
+                    <br>
+    
+                    <div class="chk">
+                        <input type="checkbox" name="checkbox" id="chk-dlr" required>
+                        <label for="declaration">I agree to all the Terms and conditions</label>
+                    </div>
+                    
+                    <button class="btn" type="submit" form="form1" value="Signup">Signup</button>
+        
+                </form>
+            </div>
+        </main>
+    
+        <footer>
+    
+        </footer>
+    </div>
+</body>
+</html>
